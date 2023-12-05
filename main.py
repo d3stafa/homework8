@@ -16,11 +16,11 @@ def get_birthdays_per_week(users):
         print()
         if day == next_week:
             break
-    users = [
+users = [
         {'name': 'Bill', 'birthday': datetime(2023, 1, 4)},
         {'name': 'Jill', 'birthday': datetime(2023, 1, 6)},
         {'name': 'Kim', 'birthday': datetime(2023, 1, 7)},
         {'name': 'Jan', 'birthday': datetime(2023, 1, 8)}
     ]
 
-    get_birthdays_per_week(users)
+get_birthdays_per_week(users)
